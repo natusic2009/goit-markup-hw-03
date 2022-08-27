@@ -188,10 +188,12 @@ a {
   text-transform: uppercase;
 }
 .features-text {
+  margin-right: 30px;
   font-size: 14px;
   line-height: 1.7;
   color: var(--title-text-color);
 }
+
 .team {
   background-color: var(--background-team);
 }
