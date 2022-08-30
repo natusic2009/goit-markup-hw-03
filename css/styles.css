@@ -101,6 +101,7 @@ a {
   padding-left: 0;
   margin: 0;
   margin-left: 93px;
+ 
 }
 .list-features {
   display: flex;
@@ -280,6 +281,7 @@ a {
   padding-bottom: 30px;
 }
 .address {
+  margin-top: 20px;
 }
 .address-list .address-item {
   text-decoration: none;
