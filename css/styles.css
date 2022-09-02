@@ -288,10 +288,9 @@ a {
 }
 .address-list {
   list-style: none;
-  margin-bottom: 10px;
 }
-.address-item:last-child {
-  margin-bottom: 0;
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .name-item {
   font-family: 'Roboto';
@@ -313,9 +312,8 @@ a {
   color: var(--title-text-color);
 }
 .footer {
-  color: rgba(255, 255, 255, 0.6);
   background-color: var(--background-footer);
-  padding: 60px;
+  padding: 60px 0;
 }
 .logo-footer {
 }
@@ -350,7 +348,7 @@ a {
   margin-bottom: 50px;
 
   justify-content: center;
-
+  gap: 8px;
   list-style-type: none;
   font-family: inherit;
 }
@@ -358,7 +356,6 @@ button {
   border: none;
 }
 .btn {
-  margin-right: 8px;
   color: var(--main-text-color);
   background-color: var(--background-team);
   font-weight: 500;
@@ -368,7 +365,6 @@ button {
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px;
-  min-width: 73px;
 }
 .btn:hover {
   color: var(--main-background-color);
@@ -393,12 +389,9 @@ button {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-top: 4px;
-  margin-left: 24px;
-  margin-bottom: 24px;
 }
 .project-name-text {
-  gap: 30px;
-  background: #ffffff;
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
 .img-portfolio {
@@ -414,9 +407,9 @@ button {
 }
 .img-portfolio li {
 }
-.img-portfolio li:nth-last-child(3n + 1) {
+/* .img-portfolio li:nth-last-child(3n + 1) {
   padding-right: 0px;
-}
+} */
 .main-section {
   padding: 94px 0;
 }
